@@ -8,14 +8,14 @@ THE FOLLOWING DOCUMENTATION IS A HELP TO EXECUTE AND PROBE THE RESULT OF THE IEE
 ## MATLAB FILES
 1. [Boost_aproximation.m](https://github.com/GerPS0/IEEE_LatinAmerica_ID8468/blob/main/MATLAB_files/Boost_aproximation.m) Mat function with the code to generate the FOPID and fractional approximation of Boost converter.
 2. [Buck_aproximation.m](https://github.com/GerPS0/IEEE_LatinAmerica_ID8468/blob/main/MATLAB_files/Buck_aproximation.m) Mat function with the code to generate the FOPID and fractional approximation of Buck converter.
-3. [Main_function.m](https://github.com/GerPS0/IEEE_LatinAmerica_ID8468/blob/main/MATLAB_files/Main_function.m) Main script to set the parameters of each converter and escecute both function. Note: the parameters can be modified by user.
+3. [Main_function.m](https://github.com/GerPS0/IEEE_LatinAmerica_ID8468/blob/main/MATLAB_files/Main_function.m) Main script to set the parameters of each converter and execute both functions. Note: the parameters can be modified by user.
 4. [Variables.m](https://github.com/GerPS0/IEEE_LatinAmerica_ID8468/blob/main/MATLAB_files/Variables.m) Global variables used in each Mat function.
 
 ## INSTRUCTIONS TO DESIGN THE FOPID
 The file [Steps to FOPID controller.txt](https://github.com/GerPS0/IEEE_LatinAmerica_ID8468/blob/main/Steps%20to%20FOPID%20controller.txt)is a guide to use the provided material together with the steps described in the article to generate a FOPID controller.
 
 ## INSTRUCTIONS TO EXECUTE A CORRECT TEST OF THE FOPID
-The file [Steps to implement the controller.txt](https://github.com/GerPS0/IEEE_LatinAmerica_ID8468/blob/main/Steps to implement the controller.txt) is a guide on how to test the controller in a test setup similar to the one illustrated in the article.
+The file [Steps to implement the controller.txt](https://github.com/GerPS0/IEEE_LatinAmerica_ID8468/blob/main/Steps%20to%20implement%20the%20controller.txt) is a guide on how to test the controller in a test setup similar to the one illustrated in the article.
 
 ## PSEUDO CODE TO HELP THE CODING THE FOPID IN A MICROCONTROLLER
 The file [Pseudocode.txt](https://github.com/GerPS0/IEEE_LatinAmerica_ID8468/blob/main/Pseudocode.txt) provides an example of the code used to execute the controller on a DSP.
